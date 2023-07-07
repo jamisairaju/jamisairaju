@@ -1,0 +1,88 @@
+<html>
+
+<head>
+	<title>
+		Sign up
+	</title>
+</head>
+
+<body>
+	<style>
+		body {
+			background-image: url("pic5.jpeg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+	</style>
+
+
+	<style>
+		body {
+			color: rgb(245, 245, 252);
+			font-size: 90%;
+			text-align: center;
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		}
+
+		div {
+			background-color: rgb(40, 76, 91);
+			backdrop-filter: blur(20px);
+			width: 300px;
+			border: 12px solid rgb(38, 27, 27);
+			padding: 25px;
+			margin: 25px;
+		}
+
+		a {
+			color: red;
+		}
+	</style>
+
+
+	<form action="register" method="post">
+		<div>
+			<h2>FILL THE FORM</h2>
+			<p>Please fill this form to create an account</p>
+			<hr>
+			<label><b>First name</b></label>
+			<input type="Text" placeholder="Surname" name="fname" />
+			<br>
+			<br>
+			<label><b>Last name</b></label>
+			<input type="Text" placeholder="Name" />
+			<br>
+			<br>
+			<label><b>Gmail Id</b></label>
+			<input type="email" placeholder="Your mail id" />
+			<br>
+			<br>
+			<label><b>Number</b></label>
+			<input type="type" id="phone" maxlength="10" placeholder="0000000000">
+			<br>
+			<br>
+			<label><b>Date of birth</b></label>
+			<input type="date" placeholder="Birthday" />
+			<p><b>Gender</b></P>
+			<input type="radio" id="male" name="Gender" value="MALE">
+			<label for="male">MALE</label>
+			<input type="radio" id="famale" name="Gender" value="FEMALE">
+			<label for="female">FEMALE</label>
+			<br>
+			<br>
+			<label><b>Password</b></label>
+			<input type="password" placeholder="Password" />
+			<br>
+			<br>
+			<label><b>Re-enter password</b></label>
+			<input type="password" placeholder="Password" />
+			<br>
+			<br>
+
+			<button>Sign up</button>
+			<p>Already have an account?<a href="login.html">Log in</a></p>
+		</div>
+	</form>
+</body>
+
+</html>
